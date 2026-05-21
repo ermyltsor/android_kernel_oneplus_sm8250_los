@@ -1,9 +1,0 @@
-// kona-mtp.dtsi 
-&soc {
-    //#ifdef OPLUS_FEATURE_CONNFCSOFT
-	nfc_chipset {
-		chipset-19705 = "SN100T";
-		/delete-property/ chipset-19795;
-	};
-	//#endif /* OPLUS_FEATURE_CONNFCSOFT */
-};
